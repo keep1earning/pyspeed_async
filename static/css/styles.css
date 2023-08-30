@@ -1,0 +1,68 @@
+/* 整体页面样式设置 */
+/* Global page styling */
+body {
+    font-family: Arial, sans-serif; /* 设置字体 */
+    margin: 0; /* 清除外边距 */
+    padding: 0; /* 清除内边距 */
+    background-color: #f4f4f4; /* 设置背景色 */
+}
+
+/* 容器样式，用于包裹主体内容 */
+/* Container style for wrapping the main content */
+.container {
+    max-width: 800px; /* 最大宽度 */
+    margin: auto; /* 居中显示 */
+    background: white; /* 设置背景色 */
+    padding: 20px; /* 内边距 */
+}
+
+/* 标题样式 */
+/* Heading styles */
+h1 {
+    font-size: 2em; /* 字体大小 */
+    margin-bottom: 20px; /* 底部外边距 */
+}
+
+/* 按钮样式 */
+/* Button styles */
+button {
+    background-color: #007bff; /* 背景色 */
+    color: white; /* 字体颜色 */
+    border: none; /* 无边框 */
+    padding: 10px 20px; /* 内边距 */
+    margin: 5px; /* 外边距 */
+    cursor: pointer; /* 鼠标样式为手型 */
+}
+
+/* 按钮悬停样式 */
+/* Button hover styles */
+button:hover {
+    background-color: #0056b3; /* 悬停时的背景色 */
+}
+
+/* 仪表盘样式 */
+/* Gauge styles */
+.gauge {
+    width: 100px; /* 宽度 */
+    height: 50px; /* 高度 */
+}
+
+/* 仪表盘背景和前景样式 */
+/* Gauge background and foreground styles */
+.gauge-background,
+.gauge-foreground {
+    stroke-width: 8; /* 线宽 */
+    fill: none; /* 无填充 */
+}
+
+/* 仪表盘背景样式 */
+/* Gauge background style */
+.gauge-background {
+    stroke: #ccc; /* 线条颜色 */
+}
+
+/* 仪表盘前景样式 */
+/* Gauge foreground style */
+.gauge-foreground {
+    stroke: #007bff; /* 线条颜色 */
+}

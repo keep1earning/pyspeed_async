@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 设置文档字符集 -->
+    <!-- Set the document character set -->
+    <meta charset="UTF-8">
+    <!-- 设置网页标题 -->
+    <!-- Set the web page title -->
+    <title>Speed Test Server</title>
+    <!-- 引入CSS样式文件 -->
+    <!-- Link the CSS stylesheet -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <!-- 引入Chart.js库，用于绘制图表 -->
+    <!-- Add this line for Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head>
+<body>
+    <!-- 网页主体容器 -->
+    <!-- Main container for the web page -->
+    <div class="container">
+        <!-- 显示标题 -->
+        <!-- Display the title -->
+        <h1>Speed Test</h1>
+        <!-- 启动单线程测试的按钮 -->
+        <!-- Button to start single-threaded test -->
+        <button id="start-single">Start Single-Threaded Test</button>
+        <!-- 启动多线程测试的按钮 -->
+        <!-- Button to start multi-threaded test -->
+        <button id="start-multi">Start Multi-Threaded Test</button>
+        <!-- 显示速度的文本区域 -->
+        <!-- Text area to display the speed -->
+        <div id="speed-text">Speed: 0 MB/s</div>
+        <!-- 速度图表的画布 -->
+        <!-- Canvas for the speed chart -->
+        <div>
+            <canvas id="speedChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+    <!-- 引入JavaScript文件 -->
+    <!-- Include the JavaScript file -->
+    <script src="/static/main.js"></script>
+</body>
+</html>
